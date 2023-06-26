@@ -1,0 +1,178 @@
+body{
+    
+    background-color: rgb(190, 160, 218);
+}
+
+.Sketch{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   width: 500px;
+   height: 600px;
+}
+
+.GoHome{
+    font-size: 20px;
+    position: fixed;
+    margin-left: 10px;
+    top: 10px;
+    text-align: center;
+    text-align: right;
+    text-decoration: none;
+}
+.GoHome a{
+    color: black;
+    text-decoration: none;
+}
+
+.GoPort{
+    margin-left: 10px;
+    font-size: 20px;
+    position: fixed;
+    top: 35px;
+}
+
+.GoPort a{
+    color: black;
+    text-decoration: none;
+}
+
+.linkWelcome {
+    text-align: center;
+}
+
+.genCon{
+    text-align: center;
+    background-color: rgb(189, 151, 225);
+    margin-top: 80px;
+    margin-left: 400px;
+    height: 30vh;
+    width: 50%;
+    border: 3px solid blueviolet;
+    padding: 10px;
+    box-shadow: 3px 3px 9px rgb(86, 25, 143);
+}
+
+.genCon button{
+    border-radius: 3px;
+    border: 2px solid;
+    background-color: transparent;
+    color: rgb(73, 5, 137) ;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.genCon button:hover{
+    background-color: rgb(153, 105, 198);
+    color:  rgb(0, 0, 0);
+    box-shadow: 3px 3px 9px rgb(86, 25, 143);
+}
+
+.linkWelcome{
+    color:rgb(37, 1, 71);
+}
+
+.linkMarquee{
+    color: rgb(37, 1, 71);
+}
+
+.redeFun{
+    text-align: center;
+
+}
+
+.redeFun img{
+    width: 300px;
+    height: 45px;
+}
+
+/*fun page*/
+
+
+.funPage{
+    background-image: url(../images/rainForest.jpg);
+    border: 5px solid rgb(172, 172, 172);
+    outline: 2px solid black;
+}
+
+.funPage a{
+    color: white;
+    text-decoration: dotted white;
+    line-height: 30px;
+
+}
+
+
+.funHome, .funPort {
+    background-color:  rgb(172, 172, 172);
+    
+}
+
+.funHome a, .funPort a{
+    color: black;
+    text-decoration: none;
+}
+
+.funHeader{
+    text-align: center;
+    margin-top: -50px;
+    padding-bottom: 50px;
+}
+
+.extraReading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 500px;
+    margin-left: 200px;
+    margin-right: 50px;
+    background-image: url(../images/waterRainforest.jpg);
+    width: 500px;
+
+    border: 2px solid  rgb(172, 172, 172);
+    outline: 2px solid black;
+}
+
+.extraReading h3{
+    border-bottom: 2px solid black;
+    padding: 2px;
+    margin-top: 0;
+    background-color: rgb(172, 172, 172);
+    font-size: 25px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-shadow: 1px 1px 7px rgb(255, 255, 255);
+}
+
+.extraReading {
+    columns: black;
+}
+
+.otherlink{
+    float: right;
+    margin-top: -500px;
+    margin-right: 200px;
+    background-image: url(../images/ComputerForest.jpg);
+    width: 500px;
+
+    border: 2px solid  rgb(172, 172, 172);
+    outline: 2px solid black;
+
+}
+
+.otherlink h3{
+    border-bottom: 2px solid black;
+    padding: 2px;
+    margin-top: 0;
+    background-color: rgb(172, 172, 172);
+    font-size: 25px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-shadow: 1px 1px 7px rgb(255, 255, 255);
+}
+
+.otherlink ul{
+    display: block;
+    background-color: rgba(43, 94, 138, 0.462);
+    margin: 10px;
+    text-decoration: none;
+}
